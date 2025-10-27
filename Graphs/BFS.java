@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class bfsSolution {
     // Function to return Breadth First Traversal of given graph.
     public List<Integer> bfsOfGraph(int V, List<List<Integer>> adj) {
         List<Integer> bfs = new ArrayList<>();
@@ -48,7 +48,7 @@ public class BFS {
         addEdge(adj, 1, 3);
         addEdge(adj, 0, 4);
 
-        Solution obj = new Solution();
+        bfsSolution obj = new bfsSolution();
         List<Integer> ans = obj.bfsOfGraph(V, adj);
         printAns(ans);
     }
